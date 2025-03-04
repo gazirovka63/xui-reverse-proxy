@@ -1383,6 +1383,7 @@ EOF
     fi
   done
 
+  echo "renew_hook = systemctl reload nginx" >> /etc/letsencrypt/renewal/${DOMAIN}.conf
   add_cron_rule "0 5 1 */2 * certbot -q renew"
   tilda "$(text 10)"
 }
