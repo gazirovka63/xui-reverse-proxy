@@ -373,7 +373,7 @@ read_defaults_from_file() {
     defaults[shell]=false
     defaults[nginx]=true
     defaults[panel]=true
-    defaults[custom]=true
+    defaults[custom]=false
     defaults[firewall]=true
     defaults[ssh]=true
     defaults[tgbot]=false
@@ -400,7 +400,7 @@ defaults[mon]=false
 defaults[shell]=false
 defaults[nginx]=true
 defaults[panel]=true
-defaults[custom]=true
+defaults[custom]=false
 defaults[firewall]=false
 defaults[ssh]=false
 defaults[tgbot]=false
