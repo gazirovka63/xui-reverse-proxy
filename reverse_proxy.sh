@@ -363,7 +363,7 @@ read_defaults_from_file() {
     # Если файл не найден, используем значения по умолчанию
     defaults[utils]=true
     defaults[dns]=true
-    defaults[addu]=true
+    defaults[addu]=false
     defaults[autoupd]=true
     defaults[bbr]=true
     defaults[ipv6]=true
